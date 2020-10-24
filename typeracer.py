@@ -2,7 +2,6 @@ import random
 import time
 import subprocess
 from difflib import SequenceMatcher
-import time
 
 
 a = 1
@@ -29,7 +28,7 @@ while a == 1:
     elif (answer in ["no", "No"]):
         print("Thats disappointing.")
         time.sleep(5)
-        #popen.terminate()
+        popen.terminate()
     else:
         print("Sorry, I didn't quite get that, can you answer with either yes or no?")
 
